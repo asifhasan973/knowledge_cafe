@@ -18,7 +18,7 @@ function App() {
     setListBlogs(newFilterList);
   };
   return (
-    <>
+    <div className="exo-2">
       <Header></Header>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 w-10/12 mx-auto">
         <div className="order-2 lg:order-1 lg:col-span-2">
@@ -31,7 +31,7 @@ function App() {
           <Bookmarks listBlogs={listBlogs} time={time}></Bookmarks>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
